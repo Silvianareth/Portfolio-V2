@@ -77,3 +77,12 @@
         Want to collaborate? Don't esitate to contact me! <div class="mt-2">               
             <a class="btn" role="button" href="contact.html" target="_self" id="btn-1">Get in touch</a>
          </div>
+         <script type="module">
+          import { Toast } from "bootstrap.esm.min.js";
+    
+          Array.from(document.querySelectorAll(".toast")).forEach(
+            (toastNode) => new Toast(toastNode)
+          );
+        </script>
+        </body>
+      </html>

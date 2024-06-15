@@ -1,0 +1,147 @@
+body {
+    font-family: "Jersey 10", sans-serif;
+    background-color: white;
+}
+
+.text-start {
+    margin-top: 8em;
+    border: 1px solid;
+    border-radius: 6%;
+    background: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
+}
+
+.mt-3 {
+    font-size: 20px;
+    text-align: left;
+}
+
+#btn-1 {
+    text-decoration: none;
+    margin-left: 100px;
+    border: 1px solid;
+    background: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
+    padding: 10px;
+    border-radius: 20%;
+    color: black;
+    box-shadow: 0 20px 15px 0 rgb(70, 68, 68);
+    transition: ease-in-out 0.15ms;
+    margin-bottom: 1rem;
+
+}
+
+#btn-1:hover {
+    background: linear-gradient(-180deg, rgba(0,0,0,0.50) 0%, rgba(255,255,255,0.50) 100%);
+    color: white;
+    cursor: pointer;
+    transition: ease-in-out 0.15ms;
+}
+
+
+
+.navbar > .container-fluid,
+.navbar > .container,
+.navbar > .container-lg,
+.navbar > .container-md,
+.navbar > .container-sm,
+.navbar > .container-xl,
+.navbar > .container-xxl {
+  
+  position: fixed;
+  top: 0px;
+  left: 0px;
+    background: linear-gradient(-180deg, rgba(255,255,255,0.50) 50%, rgba(0,0,0,0.50) 100%);
+    text-align: space-between;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: auto;
+}
+
+   
+
+.h1home {
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: lighter;
+}
+
+h1 {
+    margin-top: 4rem;
+    text-align: center;
+    font-weight: bolder;
+}
+
+p{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+h2{
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 2rem;
+}
+
+.contLink{
+    color: darkcyan;
+    text-align: center;
+    text-decoration-line: none;
+    text-shadow: rgb(41, 119, 122) 0 10px 10px;
+    }
+
+    .contacts {
+            background-color: #FACCDB;
+            font-family: "Jersey 10", sans-serif;
+   
+
+    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/231/original/portfolio_index_wallpaper.jpeg?1713997314"); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    background-position: center center;
+    
+    height: auto;
+    background-color: #FACCDB;
+    padding: 25% ;
+}
+
+.footer{
+padding: 1em;
+    background-color: rgba(255,255,255,0.50);
+    color: black;
+    border: 1px solid hsla(334, 51%, 79%, 0.588);
+    border-radius: 5%;
+    margin: auto;
+
+}
+
+@media screen and (max-width: 500px) {
+    .contacts{
+        background-color: #c69aa9;
+        background-image: none;
+    }
+    
+}
+
+@media screen and (min-width: 1008px) {
+    .contacts {
+        font-family: "Jersey 10", sans-serif;
+        background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/231/original/portfolio_index_wallpaper.jpeg?1713997314"); 
+        
+        background-repeat: no-repeat;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }  
+    
+    
+    
+}

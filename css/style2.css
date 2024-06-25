@@ -1,0 +1,79 @@
+body{
+    background-color: #FACCDB;
+    font-family: "Jersey 10", sans-serif;
+}
+.contacts{
+    background-image: url("/img/pixel wallpaper(1).jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}    
+
+
+.navbar > .container-fluid,
+.navbar > .container,
+.navbar > .container-lg,
+.navbar > .container-md,
+.navbar > .container-sm,
+.navbar > .container-xl,
+.navbar > .container-xxl {
+  
+  position: fixed;
+  top: 0px;
+  left: 0px;
+    background: linear-gradient(-180deg, rgba(255,255,255,0.50) 50%, rgba(0,0,0,0.50) 100%);
+    text-align: space-between;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: auto;
+}
+
+   
+
+
+.footer{
+    width:42%;
+    padding: 2%;
+        background-color: rgba(255,255,255,0.50);
+        color: black;
+        border: 1px solid hsla(334, 51%, 79%, 0.588);
+        border-radius: 5%;
+        margin: 7rem auto;
+    
+    }
+
+    @media screen and (max-width: 500px) {
+        body{
+            background-color: #FACCDB;
+            font-family: "Jersey 10", sans-serif;
+        }
+        .contacts{
+            background-image: none;
+        }
+        
+    }
+
+
+       
+        
+    
+    @media screen and (max-width: 1420px) {
+        body {
+            font-family: "Jersey 10", sans-serif;
+            background-image: url("/img/pixel wallpaper(1).jpg");
+            background-repeat: no-repeat;
+            /*background-size: cover;*/
+            background-position: center 5rem;
+            ;
+        }  
+        
+        
+        
+    }    
